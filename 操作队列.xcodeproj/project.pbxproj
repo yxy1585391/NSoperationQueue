@@ -15,6 +15,13 @@
 		DD99D13220887C5A0067ED15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99D13120887C5A0067ED15 /* main.m */; };
 		DD99D13C20887C5E0067ED15 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99D13B20887C5E0067ED15 /* ____Tests.m */; };
 		DD99D14720887C5E0067ED15 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99D14620887C5E0067ED15 /* ____UITests.m */; };
+		DD99D15620896FB40067ED15 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99D15520896FB40067ED15 /* NSOperationViewController.m */; };
+		DD99D15A208973460067ED15 /* NSOperationOnlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99D158208973460067ED15 /* NSOperationOnlyViewController.m */; };
+		DD99D15B208973460067ED15 /* NSOperationOnlyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD99D159208973460067ED15 /* NSOperationOnlyViewController.xib */; };
+		DD99D15E208973620067ED15 /* XMGOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99D15D208973620067ED15 /* XMGOperation.m */; };
+		DD99D161208974950067ED15 /* XMGThread.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99D160208974950067ED15 /* XMGThread.m */; };
+		DD99D165208977E00067ED15 /* NSoperationListonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99D163208977E00067ED15 /* NSoperationListonViewController.m */; };
+		DD99D166208977E00067ED15 /* NSoperationListonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD99D164208977E00067ED15 /* NSoperationListonViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		DD99D14220887C5E0067ED15 /* 操作队列UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "操作队列UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD99D14620887C5E0067ED15 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		DD99D14820887C5E0067ED15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD99D15420896FB40067ED15 /* NSOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		DD99D15520896FB40067ED15 /* NSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
+		DD99D157208973460067ED15 /* NSOperationOnlyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationOnlyViewController.h; sourceTree = "<group>"; };
+		DD99D158208973460067ED15 /* NSOperationOnlyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationOnlyViewController.m; sourceTree = "<group>"; };
+		DD99D159208973460067ED15 /* NSOperationOnlyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSOperationOnlyViewController.xib; sourceTree = "<group>"; };
+		DD99D15C208973620067ED15 /* XMGOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGOperation.h; sourceTree = "<group>"; };
+		DD99D15D208973620067ED15 /* XMGOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGOperation.m; sourceTree = "<group>"; };
+		DD99D15F208974950067ED15 /* XMGThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGThread.h; sourceTree = "<group>"; };
+		DD99D160208974950067ED15 /* XMGThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGThread.m; sourceTree = "<group>"; };
+		DD99D162208977E00067ED15 /* NSoperationListonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSoperationListonViewController.h; sourceTree = "<group>"; };
+		DD99D163208977E00067ED15 /* NSoperationListonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSoperationListonViewController.m; sourceTree = "<group>"; };
+		DD99D164208977E00067ED15 /* NSoperationListonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSoperationListonViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +129,18 @@
 				DD99D12D20887C5A0067ED15 /* LaunchScreen.storyboard */,
 				DD99D13020887C5A0067ED15 /* Info.plist */,
 				DD99D13120887C5A0067ED15 /* main.m */,
+				DD99D15420896FB40067ED15 /* NSOperationViewController.h */,
+				DD99D15520896FB40067ED15 /* NSOperationViewController.m */,
+				DD99D157208973460067ED15 /* NSOperationOnlyViewController.h */,
+				DD99D158208973460067ED15 /* NSOperationOnlyViewController.m */,
+				DD99D159208973460067ED15 /* NSOperationOnlyViewController.xib */,
+				DD99D15C208973620067ED15 /* XMGOperation.h */,
+				DD99D15D208973620067ED15 /* XMGOperation.m */,
+				DD99D15F208974950067ED15 /* XMGThread.h */,
+				DD99D160208974950067ED15 /* XMGThread.m */,
+				DD99D162208977E00067ED15 /* NSoperationListonViewController.h */,
+				DD99D163208977E00067ED15 /* NSoperationListonViewController.m */,
+				DD99D164208977E00067ED15 /* NSoperationListonViewController.xib */,
 			);
 			path = "操作队列";
 			sourceTree = "<group>";
@@ -239,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD99D12F20887C5A0067ED15 /* LaunchScreen.storyboard in Resources */,
+				DD99D166208977E00067ED15 /* NSoperationListonViewController.xib in Resources */,
 				DD99D12C20887C5A0067ED15 /* Assets.xcassets in Resources */,
 				DD99D12A20887C5A0067ED15 /* Main.storyboard in Resources */,
+				DD99D15B208973460067ED15 /* NSOperationOnlyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +300,12 @@
 			files = (
 				DD99D12720887C5A0067ED15 /* ViewController.m in Sources */,
 				DD99D13220887C5A0067ED15 /* main.m in Sources */,
+				DD99D165208977E00067ED15 /* NSoperationListonViewController.m in Sources */,
+				DD99D15E208973620067ED15 /* XMGOperation.m in Sources */,
+				DD99D161208974950067ED15 /* XMGThread.m in Sources */,
 				DD99D12420887C5A0067ED15 /* AppDelegate.m in Sources */,
+				DD99D15A208973460067ED15 /* NSOperationOnlyViewController.m in Sources */,
+				DD99D15620896FB40067ED15 /* NSOperationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

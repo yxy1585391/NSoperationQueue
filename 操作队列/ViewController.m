@@ -68,6 +68,9 @@
     NSBlockOperation *op3 = [NSBlockOperation blockOperationWithBlock:^{
         NSLog("3-------%@",[NSThread currentThread]);
     }];
+    [op3 addExecutionBlock:^{
+        
+    }];
     
     //3 把任务添加到队列
     [queue addOperation:op1];//该方法内部会自动调用start方法
@@ -98,7 +101,10 @@
     //设置最大并发数 同一时间最多有多少条线程在执行
     //设置为0 是不能执行任务
     //NSOperationQueueDefaultMaxConcurrentOperationCount =-1 指的是一个最大的值(表示不受限制)
-    queue.maxConcurrentOperationCount = 1;
+    queue.maxConcurrentOperationCount = 1;//并不代表里面有多少条线程,只是它如何执行
+    //设置最大并发数对于任务数量大于1的操作是无效的
+    //就是追加任务 addExecutionBlock会使得任务数量大于1
+    //当操作中的任务数量>1的时候 会开启多条子线程和当前线程一起工作
     
     //3 把任务添加到队列
     [queue addOperation:op1];//该方法内部会自动调用start方法
